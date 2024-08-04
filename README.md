@@ -4,13 +4,13 @@
 
 ## 访问博客
 
-官方网站: [点击访问](https://chizhang977.github.io/justin/)
+官方网站: [点击访问](https://zldevops.github.io/blog/)
 
 在这里，您将发现一系列精心编排的文章，涵盖从基础编程技巧到前沿技术趋势的广泛话题。
 
 ## 技术栈亮点
 
-- vitepress：作为博客的基石，VuePress 提供了极致的性能与灵活性，确保内容加载迅速且交互流畅。
+- vuepress：作为博客的基石，VuePress 提供了极致的性能与灵活性，确保内容加载迅速且交互流畅。
 - Vue.js：利用 Vue.js 构建动态功能和组件，为读者带来更加丰富的阅读体验。
 - Markdown：采用简洁高效的 Markdown 语法编写文章，保证内容的可读性和可维护性。
 - GitHub Pages：借助 GitHub Pages 实现免费且可靠的静态页面托管，全球访问无阻。
@@ -23,7 +23,7 @@
 ## 克隆项目：
 
 ```bash
-git clone git@github.com:chizhang977/justin.git
+git@github.com:Zldevops/blog.git
 ```
 
 ## 进入项目目录：
@@ -33,7 +33,7 @@ cd docs
 ```
 
 ## 安装依赖：
-
+推荐`pnpm`,yarn使用版本2+
 ```bash
 yarn install
 ```
@@ -44,7 +44,7 @@ yarn install
 yarn docs:dev
 ```
 
-然后，访问 http://localhost:5173 即可在本地预览博客。
+然后，访问 http://localhost:8080 即可在本地预览博客。
 
 ## 社区参与
 
