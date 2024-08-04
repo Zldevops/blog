@@ -5,12 +5,14 @@ import navbar from './navbar'
 
 export default defineUserConfig({
   // 请不要忘记设置默认语言
+  base: '/blog/',
   lang: 'zh-CN',
   title: ' TechSpectrum ',
   description: '这是我的第一个 VuePress 站点',
   
   theme: plumeTheme({
     logo:'/images/博客.png',
+    
     //导航栏单独配置
     navbar:navbar,
     profile: {
